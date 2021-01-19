@@ -1,0 +1,219 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+{% block title %}Trade Log{% endblock %}
+
+
+{% block content %}
+<body id="page-top">
+
+    <!-- Page Wrapper -->
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+    
+            <!-- Sidebar - Brand -->
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+                <div class="sidebar-brand-icon">
+                    <i class="fas fa-chart-line"></i>
+                </div>
+                <div class="sidebar-brand-text mx-3">Pairs Trading</div>
+            </a>
+    
+            <!-- Divider -->
+            <hr class="sidebar-divider my-0">
+    
+            <!-- Nav Item - Dashboard -->
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">
+                    <i class="fas fa-fw fa-tachometer-alt"></i>
+                    <span>Dashboard</span></a>
+            </li>
+    
+            <!-- Divider -->
+            <hr class="sidebar-divider">
+    
+            <!-- Heading -->
+            <div class="sidebar-heading">
+                Daily Actions
+            </div>
+    
+            <!-- Nav Item - Open Pairs -->
+            <li class="nav-item">
+                <a class="nav-link" href="openpairs.html">
+                    <i class="fas fa-fw fa-table"></i>
+                    <span>Open Pairs</span></a>
+            </li>
+            
+            <!-- Nav Item - Trade Pairs -->
+            <li class="nav-item">
+                <a class="nav-link" href="tradepairs.html">
+                    <i class="fas fa-fw fa-table"></i>
+                    <span>Trade Pairs</span></a>
+            </li>
+    
+            <!-- Nav Item - Close Pairs -->
+            <li class="nav-item">
+                <a class="nav-link" href="closepairs.html">
+                    <i class="fas fa-fw fa-table"></i>
+                    <span>Close Pairs</span></a>
+            </li>
+    
+            <!-- Divider -->
+            <hr class="sidebar-divider">
+    
+            <!-- Heading -->
+            <div class="sidebar-heading">
+                Data Tracking
+            </div>
+    
+            <!-- Nav Item - Active Trades -->
+            <li class="nav-item">
+                <a class="nav-link" href="active.html">
+                    <i class="fas fa-fw fa-table"></i>
+                    <span>Active Trades</span></a>
+            </li>
+    
+            <!-- Nav Item - Completed Trades -->
+            <li class="nav-item active">
+                <a class="nav-link" href="tradelog.html">
+                    <i class="fas fa-fw fa-table"></i>
+                    <span>Completed Trades</span></a>
+            </li>
+    
+            <!-- Divider -->
+            <hr class="sidebar-divider d-none d-md-block">
+    
+            <!-- Sidebar Toggler (Sidebar) -->
+            <div class="text-center d-none d-md-inline">
+                <button class="rounded-circle border-0" id="sidebarToggle"></button>
+            </div>
+    
+    
+        </ul>
+        <!-- End of Sidebar -->
+
+        <!-- Content Wrapper -->
+        <div id="content-wrapper" class="d-flex flex-column">
+
+            <!-- Main Content -->
+            <div id="content">
+
+                <!-- Begin Page Content -->
+                <div class="container-fluid">
+                
+                <br>
+
+                    <!-- Page Heading -->
+                    <h1 class="h3 mb-2 text-gray-800">Completed Trade Log</h1>
+                    
+
+                    <!-- DataTales Example -->
+                    <div class="card shadow mb-4">
+                        <div class="card-body">
+                            <div class="table-responsive">
+                                <table class="table table-bordered" id="tradelogTable" width="100%" cellspacing="0">
+                                    <thead>
+                                        <tr class="m-0 font-weight-bold text-primary">
+                                            <th>Tick1</th>
+                                            <th>Tick2</th>
+                                            <th>Final Z-Score</th>
+                                            <th>Total Profit</th>
+                                            <th>Annual Return</th>
+                                            <th>Number of Trades</th>
+                                        </tr>
+                                    </thead>
+                                    
+                                    <tbody>
+                                    <!-- to be filled by JavaScript -->
+                                    </tbody>
+                                    
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- /.container-fluid -->
+
+            </div>
+            <!-- End of Main Content -->
+
+            <!-- Footer -->
+            <footer class="sticky-footer bg-white">
+                <div class="container my-auto">
+                    <div class="copyright text-center my-auto">
+                        <span>Copyright &copy; Your Website 2020</span>
+                    </div>
+                </div>
+            </footer>
+            <!-- End of Footer -->
+
+        </div>
+        <!-- End of Content Wrapper -->
+
+    </div>
+    <!-- End of Page Wrapper -->
+
+
+<script type="text/javascript">
+    var table = document.getElementById("tradelogTable");
+    
+    function loadValues () {
+        const request = new XMLHttpRequest();
+        
+        request.open("get", "static/data/tradelog.json");
+        request.onload = () => {
+            try {
+                const json = JSON.parse(request.responseText);
+                populateTable(json);
+            } catch (e) {
+                console.warn("Could not load table rows!");
+            }
+        };
+        
+        request.send();
+    }    
+    
+    function populateTable(json) {
+        
+        json.forEach((row) => {
+        
+            const t1 = row.Tick1;
+            const t2 = row.Tick2;
+            const t1p = row.T1price;
+            const t2p = row.T2price;
+            const t1s = row.T1shares;
+            const t2s = row.T2shares;
+            const z = row.Zscore;
+            const profit = row.Profit;
+            const activity = row.Activity;
+            const ret = row.Return;
+            
+            var row = table.insertRow();
+            var cell1 = row.insertCell(0);
+            var cell2 = row.insertCell(1);
+            var cell3 = row.insertCell(2);
+            var cell4 = row.insertCell(3);
+            var cell5 = row.insertCell(4);
+            var cell6 = row.insertCell(5);
+            
+            cell1.innerHTML = t1;
+            cell2.innerHTML = t2;
+            cell3.innerHTML = z.toFixed(2);
+            cell4.innerHTML = '$'+profit.toFixed(2);
+            cell5.innerHTML = ret.toFixed(2) + '%';            
+            cell6.innerHTML = activity;
+
+        });
+    };
+    
+    document.addEventListener("DOMContentLoaded",() => {loadValues();});
+</script>
+
+</body>
+
+      
+{% endblock %}

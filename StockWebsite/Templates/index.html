@@ -1,0 +1,337 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+{% block title %}Stock Website{% endblock %}
+
+
+{% block content %}
+<body id="page-top">
+
+    
+
+    <!-- Page Wrapper -->
+    <div id="wrapper">
+    
+        <!-- Sidebar -->
+        <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+    
+            <!-- Sidebar - Brand -->
+            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+                <div class="sidebar-brand-icon">
+                    <i class="fas fa-chart-line"></i>
+                </div>
+                <div class="sidebar-brand-text mx-3">Pairs Trading</div>
+            </a>
+    
+            <!-- Divider -->
+            <hr class="sidebar-divider my-0">
+    
+            <!-- Nav Item - Dashboard -->
+            <li class="nav-item active">
+                <a class="nav-link" href="index.html">
+                    <i class="fas fa-fw fa-tachometer-alt"></i>
+                    <span>Dashboard</span></a>
+            </li>
+            
+            <!-- Divider -->
+            <hr class="sidebar-divider my-0">
+    
+            <!-- Nav Item - Dashboard -->
+            <li class="nav-item">
+                <a class="nav-link" href="actionlist.html">
+                    <i class="fa fa-list" aria-hidden="true"></i>
+                    <span>Action List</span></a>
+            </li>
+    
+            <!-- Divider -->
+            <hr class="sidebar-divider">
+    
+            <!-- Heading -->
+            <div class="sidebar-heading">
+                Daily Actions
+            </div>
+    
+            <!-- Nav Item - Open Pairs -->
+            <li class="nav-item">
+                <a class="nav-link" href="openpairs.html">
+                    <i class="fas fa-fw fa-table"></i>
+                    <span>Open Pairs</span></a>
+            </li>
+            
+            <!-- Nav Item - Trade Pairs -->
+            <li class="nav-item">
+                <a class="nav-link" href="tradepairs.html">
+                    <i class="fas fa-fw fa-table"></i>
+                    <span>Trade Pairs</span></a>
+            </li>
+    
+            <!-- Nav Item - Sell Pairs -->
+            <li class="nav-item">
+                <a class="nav-link" href="closepairs.html">
+                    <i class="fas fa-fw fa-table"></i>
+                    <span>Close Pairs</span></a>
+            </li>
+    
+            <!-- Divider -->
+            <hr class="sidebar-divider">
+    
+            <!-- Heading -->
+            <div class="sidebar-heading">
+                Data Tracking
+            </div>
+    
+            <!-- Nav Item - Active Trades -->
+            <li class="nav-item">
+                <a class="nav-link" href="active.html">
+                    <i class="fas fa-fw fa-table"></i>
+                    <span>Active Trades</span></a>
+            </li>
+    
+            <!-- Nav Item - Completed Trades -->
+            <li class="nav-item">
+                <a class="nav-link" href="tradelog.html">
+                    <i class="fas fa-fw fa-table"></i>
+                    <span>Completed Trades</span></a>
+            </li>
+    
+            <!-- Divider -->
+            <hr class="sidebar-divider d-none d-md-block">
+    
+            <!-- Sidebar Toggler (Sidebar) -->
+            <div class="text-center d-none d-md-inline">
+                <button class="rounded-circle border-0" id="sidebarToggle"></button>
+            </div>
+    
+    
+        </ul>
+        <!-- End of Sidebar -->
+    
+        <!-- Content Wrapper -->
+        <div id="content-wrapper" class="d-flex flex-column">
+    
+            <!-- Main Content -->
+            <div id="content">
+    
+                <!-- Begin Page Content -->
+                <div class="container-fluid">
+                
+                    <br>
+    
+                    <!-- Page Heading -->
+                    <div class="d-sm-flex align-items-center justify-content-between mb-4">
+                        <h1 class="h3 mb-0 text-gray-800">Dashboard</h1>
+                    </div>
+                    
+                    <!-- Time Stamp -->
+                    <div class="d-sm-flex align-items-center justify-content-between mb-4">
+                        <p1 class="h6 mb-0 text-gray-600" id="timeCard">
+                            <!-- Updated by script below -->
+                        </p1>
+                    </div>
+    
+                    <!-- Content Row -->
+                    <div class="row">
+    
+                        <!-- Open Pairs Card -->
+                        <div class="col-xl-3 col-md-6 mb-4">
+                            <div class="card border-left-success shadow h-100 py-2">
+                                <div class="card-body">
+                                    <div class="row no-gutters align-items-center">
+                                        <div class="col mr-2">
+                                            <div class="text-xs font-weight-bold text-success text-uppercase mb-1">
+                                                Open Pairs</div>
+                                            <div class="h5 mb-0 font-weight-bold text-gray-800" id="openCard">
+                                                <!-- Updated by script below -->
+                                            </div>
+                                        </div>
+                                        <div class="col-auto">
+                                            <i class="fas fa-dollar-sign fa-2x text-gray-300"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Trade Pairs Card -->
+                        <div class="col-xl-3 col-md-6 mb-4">
+                            <div class="card border-left-primary shadow h-100 py-2">
+                                <div class="card-body">
+                                    <div class="row no-gutters align-items-center">
+                                        <div class="col mr-2">
+                                            <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
+                                                Trade Pairs</div>
+                                            <div class="h5 mb-0 font-weight-bold text-gray-800" id="tradeCard">
+                                                <!-- Updated by script below -->
+                                            </div>
+                                        </div>
+                                        <div class="col-auto">
+                                            <i class="fas fa-dollar-sign fa-2x text-gray-300"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <!-- Close Pairs Card -->
+                        <div class="col-xl-3 col-md-6 mb-4">
+                            <div class="card border-left-danger shadow h-100 py-2">
+                                <div class="card-body">
+                                    <div class="row no-gutters align-items-center">
+                                        <div class="col mr-2">
+                                            <div class="text-xs font-weight-bold text-danger text-uppercase mb-1">
+                                                Close Pairs</div>
+                                            <div class="h5 mb-0 font-weight-bold text-gray-800" id="closeCard">
+                                                <!-- Updated by script below -->
+                                            </div>
+                                        </div>
+                                        <div class="col-auto">
+                                            <i class="fas fa-dollar-sign fa-2x text-gray-300"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <!-- Active Pairs Card -->
+                        <div class="col-xl-3 col-md-6 mb-4">
+                            <div class="card border-left-dark shadow h-100 py-2">
+                                <div class="card-body">
+                                    <div class="row no-gutters align-items-center">
+                                        <div class="col mr-2">
+                                            <div class="text-xs font-weight-bold text-dark text-uppercase mb-1">
+                                                Active Pairs</div>
+                                            <div class="h5 mb-0 font-weight-bold text-gray-800" id="activeCard">
+                                                <!-- Updated by script below -->
+                                            </div>
+                                        </div>
+                                        <div class="col-auto">
+                                            <i class="fas fa-calendar fa-2x text-gray-300"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <!-- Content Row -->
+    
+                    <div class="row">
+    
+                        <!-- Area Chart -->
+                        <div class="col-xl-8 col-lg-7">
+                            <div class="card shadow mb-4">
+                                <!-- Card Header -->
+                                <div
+                                    class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                                    <h6 class="m-0 font-weight-bold text-primary">S&P 500 - Last 12 Months</h6>
+                                </div>
+                                <!-- Card Body -->
+                                <div class="card-body">
+                                <br>
+                                    <div class="chart-area">
+                                        <canvas id="dashSP500"></canvas>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <!-- Pie Chart -->
+                        <div class="col-xl-4 col-lg-5">
+                            <div class="card shadow mb-4">
+                                <!-- Card Header -->
+                                <div
+                                    class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                                    <h6 class="m-0 font-weight-bold text-primary">Current Investments</h6>
+                                </div>
+                                <!-- Card Body -->
+                                <div class="card-body">
+                                    <div id="pieChartSummary">
+                                        <!-- Filled in by Javascript -->
+                                    </div>
+                                    <div class="chart-pie pt-4 pb-2">
+                                        <canvas id="myPieChart"></canvas>
+                                    </div>
+                                    <div class="mt-4 text-center small">
+                                        <span class="mr-2">
+                                            <i class="fas fa-circle text-success"></i> Cash
+                                        </span>
+                                        <span class="mr-2">
+                                            <i class="fas fa-circle text-primary"></i> Active
+                                        </span>
+                                        <span class="mr-2">
+                                            <i class="fas fa-circle text-dark"></i> Holding to Close
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+    
+                </div>
+                <!-- /.container-fluid -->
+    
+            </div>
+            <!-- End of Main Content -->
+    
+            <!-- Footer -->
+            <footer class="sticky-footer bg-white">
+                <div class="container my-auto">
+                    <div class="copyright text-center my-auto">
+                        <span>Copyright &copy; Brett Davis 2020</span>
+                    </div>
+                </div>
+            </footer>
+            <!-- End of Footer -->
+    
+        </div>
+        <!-- End of Content Wrapper -->
+    
+    </div>
+    <!-- End of Page Wrapper -->
+    
+    
+    <script type="text/javascript">
+        var timeCard = document.getElementById("timeCard");
+        var openCard = document.getElementById("openCard");
+        var tradeCard = document.getElementById("tradeCard");
+        var closeCard = document.getElementById("closeCard");
+        var activeCard = document.getElementById("activeCard");
+        
+        function loadValues () {
+            const request = new XMLHttpRequest();
+            
+            request.open("get", "static/data/dashboard/dashCard.json");
+            request.onload = () => {
+                try {
+                    const json = JSON.parse(request.responseText);
+                    populateCards(json);
+                } catch (e) {
+                    console.warn("Could not load dashCard!");
+                }
+            };
+            
+            request.send();
+        }    
+        
+        function populateCards(json) {        
+            timeCard.innerHTML = 'Last Update: ' + json.update + ' CT';
+            openCard.innerHTML = json.open;
+            tradeCard.innerHTML = json.trade;
+            closeCard.innerHTML = json.close;
+            activeCard.innerHTML = json.active;
+            
+        };
+        
+        document.addEventListener("DOMContentLoaded",() => {loadValues();});
+    </script>
+
+<!-- Dashboard figures scripts -->
+    <script type="text/javascript" src="{% static 'theme/js/myCharts/dashboard-charts.js' %}"></script>
+    <script type="text/javascript" src="{% static 'theme/js/myCharts/dash-pieChart.js' %}"></script>
+    
+</body>
+
+
+      
+{% endblock %}
