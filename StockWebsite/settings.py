@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/2.2/ref/settings/
 """
 
 import os
+import dj_database_url
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -21,12 +22,16 @@ PROJECT_DIR = os.path.join(BASE_DIR, "StockWebsite")
 # See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = "8eapik!0gjxfgr7-g6=cau_7e)6)iqkzkwe0@+k!hu5e_x7%pe"
+# SECRET_KEY = "8eapik!0gjxfgr7-g6=cau_7e)6)iqkzkwe0@+k!hu5e_x7%pe"
+SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY', '8eapik!0gjxfgr7-g6=cau_7e)6)iqkzkwe0@+k!hu5e_x7%pe')
+
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+# DEBUG = True
+DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 
-ALLOWED_HOSTS = []
+
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -42,6 +47,7 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
+    "whitenoise.middleware.WhiteNoiseMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
     "django.middleware.common.CommonMiddleware",
     "django.middleware.csrf.CsrfViewMiddleware",
@@ -113,6 +119,20 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.2/howto/static-files/
 
 STATIC_URL = "/static/"
-STATICFILES_DIRS = [
-    os.path.join(BASE_DIR,"static")
-    ]
+
+# The absolute path to the directory where collectstatic will collect static files for DEPLOYMENT
+STATIC_ROOT = os.path.join(BASE_DIR,"static")
+
+# Use this when working on site locally
+# STATICFILES_DIRS = [
+#     os.path.join(BASE_DIR,"static")
+#     ]
+
+
+# Heroku: Update database configuration from $DATABASE_URL.
+db_from_env = dj_database_url.config(conn_max_age=500)
+DATABASES['default'].update(db_from_env)
+
+
+
+
