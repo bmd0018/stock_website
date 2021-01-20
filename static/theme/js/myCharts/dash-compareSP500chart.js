@@ -49,14 +49,14 @@ function createSP500chart(event) {
         datasets: [{
           label: "SP500",
           lineTension: 0.3,
-          backgroundColor: "rgba(78, 115, 223, 0)",
-          borderColor: "rgba(255,69,0)",
+          backgroundColor: "rgba(78, 115, 223, 0.00)",
+          borderColor: "#e74a3b",
           pointRadius: 1,
-          pointBackgroundColor: "rgba(255,69,0)",
-          pointBorderColor: "rgba(255,69,0)",
+          pointBackgroundColor: "#e74a3b",
+          pointBorderColor: "#e74a3b",
           pointHoverRadius: 3,
-          pointHoverBackgroundColor: "rgba(255,69,0)",
-          pointHoverBorderColor: "rgba(255,69,0)",
+          pointHoverBackgroundColor: "#e74a3b",
+          pointHoverBorderColor: "#e74a3b",
           pointHitRadius: 10,
           pointBorderWidth: 0.1,
           data: sp500,
@@ -64,7 +64,7 @@ function createSP500chart(event) {
         {
           label: "My Assets",
           lineTension: 0.3,
-          backgroundColor: "rgba(78, 115, 223, 0.05)",
+          backgroundColor: "rgba(78, 115, 223, 0.00)",
           borderColor: "rgba(78, 115, 223, 1)",
           pointRadius: 1,
           pointBackgroundColor: "rgba(78, 115, 223, 1)",
@@ -83,7 +83,7 @@ function createSP500chart(event) {
           padding: {
             left: 10,
             right: 25,
-            top: 25,
+            top: 5,
             bottom: 10
           }
         },
@@ -124,22 +124,24 @@ function createSP500chart(event) {
           }],
         },
         legend: {
-          display: true,
-          position: "bottom",
+          display: false,
+          align: "end",
+          position: "top",
           labels: {
-              boxwidth: 10 
+              boxwidth: 10,
+              usePointStyle: true
           }
         },
         tooltips: {
           backgroundColor: "rgb(240,240,240)",
           bodyFontColor: '#858796',
-          titleMarginBottom: 10,
+          titleMarginBottom: 5,
           titleFontColor: '#6e707e',
           titleFontSize: 14,
           borderWidth: 1,
           xPadding: 15,
           yPadding: 15,
-          displayColors: false,
+          displayColors: true,
           intersect: false,
           mode: 'index',
           caretPadding: 10,

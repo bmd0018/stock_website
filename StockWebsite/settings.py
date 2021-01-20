@@ -22,13 +22,13 @@ PROJECT_DIR = os.path.join(BASE_DIR, "StockWebsite")
 # See https://docs.djangoproject.com/en/2.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-# SECRET_KEY = "8eapik!0gjxfgr7-g6=cau_7e)6)iqkzkwe0@+k!hu5e_x7%pe"
-SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY')
+SECRET_KEY = "8eapik!0gjxfgr7-g6=cau_7e)6)iqkzkwe0@+k!hu5e_x7%pe"
+# SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY')
 
 
 # SECURITY WARNING: don't run with debug turned on in production!
-# DEBUG = True
-DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
+DEBUG = True
+# DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 
 
 ALLOWED_HOSTS = ['pairsstocktrading.herokuapp.com','localhost']
@@ -121,17 +121,17 @@ USE_TZ = True
 STATIC_URL = "/static/"
 
 # The absolute path to the directory where collectstatic will collect static files for DEPLOYMENT
-STATIC_ROOT = os.path.join(BASE_DIR,"static")
+# STATIC_ROOT = os.path.join(BASE_DIR,"static")
 
 # Use this when working on site locally
-# STATICFILES_DIRS = [
-#     os.path.join(BASE_DIR,"static")
-#     ]
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR,"static")
+    ]
 
 
 # Heroku: Update database configuration from $DATABASE_URL.
-db_from_env = dj_database_url.config(conn_max_age=500)
-DATABASES['default'].update(db_from_env)
+# db_from_env = dj_database_url.config(conn_max_age=500)
+# DATABASES['default'].update(db_from_env)
 
 
 
