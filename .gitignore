@@ -133,3 +133,7 @@ dmypy.json
 
 # Database
 *.sqlite3
+
+# Production Files
+manage_prod.py
+.StockWebsite/setting_prod.py
