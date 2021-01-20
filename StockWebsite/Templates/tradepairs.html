@@ -2,7 +2,7 @@
 {% load static %}
 
 
-{% block title %}Open Pairs{% endblock %}
+{% block title %}Trade Pairs{% endblock %}
 
 
 {% block content %}
@@ -30,6 +30,16 @@
                 <a class="nav-link" href="index.html">
                     <i class="fas fa-fw fa-tachometer-alt"></i>
                     <span>Dashboard</span></a>
+            </li>
+            
+            <!-- Divider -->
+            <hr class="sidebar-divider my-0">
+    
+            <!-- Nav Item - Dashboard -->
+            <li class="nav-item">
+                <a class="nav-link" href="actionlist.html">
+                    <i class="fa fa-list" aria-hidden="true"></i>
+                    <span>Action List</span></a>
             </li>
     
             <!-- Divider -->
@@ -128,7 +138,7 @@
                                         </tr>
                                     </thead>
                                     <tfoot>
-                                        *Note: If table is empty, there are no pairs to trade today.
+                                        *Note: See Action List for daily summary of all trades.
                                     </tfoot>
                                     <tbody>
                                     <!-- to be filled by JavaScript -->
@@ -149,7 +159,7 @@
             <footer class="sticky-footer bg-white">
                 <div class="container my-auto">
                     <div class="copyright text-center my-auto">
-                        <span>Copyright &copy; Brett Davis 2020</span>
+                        <span>Copyright &copy; Your Website 2020</span>
                     </div>
                 </div>
             </footer>

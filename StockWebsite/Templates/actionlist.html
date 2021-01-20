@@ -2,7 +2,7 @@
 {% load static %}
 
 
-{% block title %}Open Pairs{% endblock %}
+{% block title %}Action List{% endblock %}
 
 
 {% block content %}
@@ -31,12 +31,12 @@
                     <i class="fas fa-fw fa-tachometer-alt"></i>
                     <span>Dashboard</span></a>
             </li>
-            
+    
             <!-- Divider -->
             <hr class="sidebar-divider my-0">
-    
-            <!-- Nav Item - Dashboard -->
-            <li class="nav-item">
+            
+            <!-- Nav Item - Action List -->
+            <li class="nav-item active">
                 <a class="nav-link" href="actionlist.html">
                     <i class="fa fa-list" aria-hidden="true"></i>
                     <span>Action List</span></a>
@@ -80,7 +80,7 @@
             </div>
     
             <!-- Nav Item - Active Trades -->
-            <li class="nav-item active">
+            <li class="nav-item">
                 <a class="nav-link" href="active.html">
                     <i class="fas fa-fw fa-table"></i>
                     <span>Active Trades</span></a>
@@ -117,29 +117,25 @@
                 <br>
 
                     <!-- Page Heading -->
-                    <h1 class="h3 mb-2 text-gray-800">Active Trades</h1>
+                    <h1 class="h3 mb-2 text-gray-800">Action List</h1>
                     
 
                     <!-- DataTales Example -->
                     <div class="card shadow mb-4">
                         <div class="card-body">
                             <div class="table-responsive">
-                                <table class="table table-bordered" id="activeTable" width="100%" cellspacing="0">
+                                <table class="table table-bordered" id="actionlistTable" width="100%" cellspacing="0">
                                     <thead>
                                         <tr class="m-0 font-weight-bold text-primary">
-                                            <th>Tick1</th>
-                                            <th>Tick2</th>
-                                            <th>T1 Price</th>
-                                            <th>T2 Price</th>
-                                            <th>T1 Shares</th>
-                                            <th>T2 Shares</th>
-                                            <th>Z-Score</th>
-                                            <th>Profit To Date</th>
-                                            <th>Annual Return</th>
-                                            <th>Number of Trades</th>
+                                            <th>Tick Symbol</th>
+                                            <th>Stock Price</th>
+                                            <th>Shares to Buy</th>
+                                            <th>Total Cost</th>
                                         </tr>
                                     </thead>
-                                    
+                                    <tfoot>
+                                        *Note: A negative cost is associated with selling the stock.
+                                    </tfoot>
                                     <tbody>
                                     <!-- to be filled by JavaScript -->
                                     </tbody>
@@ -173,12 +169,12 @@
 
 
 <script type="text/javascript">
-    var table = document.getElementById("activeTable");
+    var table = document.getElementById("actionlistTable");
     
     function loadValues () {
         const request = new XMLHttpRequest();
         
-        request.open("get", "static/data/active.json");
+        request.open("get", "static/data/actionlist.json");
         request.onload = () => {
             try {
                 const json = JSON.parse(request.responseText);
@@ -195,39 +191,22 @@
         
         json.forEach((row) => {
         
-            const t1 = row.Tick1;
-            const t2 = row.Tick2;
-            const t1p = row.T1price;
-            const t2p = row.T2price;
-            const t1s = row.T1shares;
-            const t2s = row.T2shares;
-            const z = row.Zscore;
-            const profit = row.Profit;
-            const activity = row.Activity;
-            const ret = row.Return;
+            const t = row.tick;
+            const p = row.price;
+            const s = row.shares;
+            const c = row.cost;
             
             var row = table.insertRow();
             var cell1 = row.insertCell(0);
             var cell2 = row.insertCell(1);
             var cell3 = row.insertCell(2);
             var cell4 = row.insertCell(3);
-            var cell5 = row.insertCell(4);
-            var cell6 = row.insertCell(5);
-            var cell7 = row.insertCell(6);
-            var cell8 = row.insertCell(7);
-            var cell9 = row.insertCell(8);
-            var cell10 = row.insertCell(9);
             
-            cell1.innerHTML = t1;
-            cell2.innerHTML = t2;
-            cell3.innerHTML = '$'+t1p.toFixed(2);
-            cell4.innerHTML = '$'+t2p.toFixed(2);
-            cell5.innerHTML = t1s.toFixed(3);
-            cell6.innerHTML = t2s.toFixed(3);
-            cell7.innerHTML = z.toFixed(2);
-            cell8.innerHTML = '$'+profit.toFixed(2);
-            cell9.innerHTML = ret.toFixed(2) + '%';            
-            cell10.innerHTML = activity;
+            cell1.innerHTML = t;
+            cell2.innerHTML = '$'+p.toFixed(2);
+            cell3.innerHTML = s.toFixed(3);
+            cell4.innerHTML = '$'+c.toFixed(2);
+
         });
     };
     

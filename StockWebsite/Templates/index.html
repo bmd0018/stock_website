@@ -224,13 +224,13 @@
                                 <!-- Card Header -->
                                 <div
                                     class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-                                    <h6 class="m-0 font-weight-bold text-primary">S&P 500 - Last 12 Months</h6>
+                                    <h6 class="m-0 font-weight-bold text-primary">Performance Tracking</h6>
                                 </div>
                                 <!-- Card Body -->
                                 <div class="card-body">
                                 <br>
                                     <div class="chart-area">
-                                        <canvas id="dashSP500"></canvas>
+                                        <canvas id="dashSP500compare"></canvas>
                                     </div>
                                 </div>
                             </div>
@@ -262,6 +262,29 @@
                                         <span class="mr-2">
                                             <i class="fas fa-circle text-dark"></i> Holding to Close
                                         </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Content Row -->
+    
+                    <div class="row">
+    
+                        <!-- Area Chart -->
+                        <div class="col-xl-12">
+                            <div class="card shadow mb-4">
+                                <!-- Card Header -->
+                                <div
+                                    class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
+                                    <h6 class="m-0 font-weight-bold text-primary">S&P 500 - Last 18 Months</h6>
+                                </div>
+                                <!-- Card Body -->
+                                <div class="card-body">
+                                <br>
+                                    <div class="chart-area">
+                                        <canvas id="dashSP500"></canvas>
                                     </div>
                                 </div>
                             </div>
@@ -327,8 +350,9 @@
     </script>
 
 <!-- Dashboard figures scripts -->
-    <script type="text/javascript" src="{% static 'theme/js/myCharts/dashboard-charts.js' %}"></script>
+    <script type="text/javascript" src="{% static 'theme/js/myCharts/dash-compareSP500chart.js' %}"></script>
     <script type="text/javascript" src="{% static 'theme/js/myCharts/dash-pieChart.js' %}"></script>
+    <script type="text/javascript" src="{% static 'theme/js/myCharts/dashboard-charts.js' %}"></script>
     
 </body>
 

@@ -31,14 +31,17 @@ function createSP500chart(event) {
     var json = this.responseText;
     var obj = JSON.parse(json);
         
-    prices = obj.data.map(function(item) {
-        return item.prices});
+    sp500 = obj.map(function(item) {
+        return item.spvalue});
         
-    dates = obj.data.map(function(item) {
-        return item.dates});
+    myassets = obj.map(function(item) {
+        return item.myvalue});
+           
+    dates = obj.map(function(item) {
+        return item.date});
         
     // Area Chart Example
-    var ctx = document.getElementById("dashSP500");
+    var ctx = document.getElementById("dashSP500compare");
     var myLineChart = new Chart(ctx, {
       type: 'line',
       data: {
@@ -46,7 +49,22 @@ function createSP500chart(event) {
         datasets: [{
           label: "SP500",
           lineTension: 0.3,
-          backgroundColor: "rgba(78, 115, 223, 0.15)",
+          backgroundColor: "rgba(78, 115, 223, 0)",
+          borderColor: "rgba(255,69,0)",
+          pointRadius: 1,
+          pointBackgroundColor: "rgba(255,69,0)",
+          pointBorderColor: "rgba(255,69,0)",
+          pointHoverRadius: 3,
+          pointHoverBackgroundColor: "rgba(255,69,0)",
+          pointHoverBorderColor: "rgba(255,69,0)",
+          pointHitRadius: 10,
+          pointBorderWidth: 0.1,
+          data: sp500,
+        },
+        {
+          label: "My Assets",
+          lineTension: 0.3,
+          backgroundColor: "rgba(78, 115, 223, 0.05)",
           borderColor: "rgba(78, 115, 223, 1)",
           pointRadius: 1,
           pointBackgroundColor: "rgba(78, 115, 223, 1)",
@@ -56,7 +74,7 @@ function createSP500chart(event) {
           pointHoverBorderColor: "rgba(78, 115, 223, 1)",
           pointHitRadius: 10,
           pointBorderWidth: 0.1,
-          data: prices,
+          data: myassets,
         }],
       },
       options: {
@@ -81,7 +99,7 @@ function createSP500chart(event) {
             },
             ticks: {
               maxTicksLimit: 6,
-              padding: 10,
+              padding: 15,
               fontStyle: 'bold',
             }
           }],
@@ -106,7 +124,11 @@ function createSP500chart(event) {
           }],
         },
         legend: {
-          display: false
+          display: true,
+          position: "bottom",
+          labels: {
+              boxwidth: 10 
+          }
         },
         tooltips: {
           backgroundColor: "rgb(240,240,240)",
@@ -128,13 +150,6 @@ function createSP500chart(event) {
 }
 
 var xhr = new XMLHttpRequest();
-xhr.open("GET", "static/data/dashboard/sp500.json");
+xhr.open("GET", "static/data/dashboard/sp500comp.json");
 xhr.addEventListener('load', createSP500chart);
 xhr.send();
-
-
-    
-
-
-
-

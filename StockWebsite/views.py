@@ -10,6 +10,8 @@ def index(request):
     # template = loader.get_template('index.html')
     # return HttpResponse(template.render({},request))
 
+def actionlist(request):
+    return render(request, "actionlist.html")
 
 def openpairs(request):
     return render(request, "openpairs.html")
