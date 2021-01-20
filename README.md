@@ -2,7 +2,7 @@
 
 Website: www.pairsstocktrading.com
 
-This website was creating using Django and deplyed through Heroku. It functions as an interface to track the results of the pairs trading code (bmd0018/pairs_trading repo), and is updated at the end of every trading day. The site has several pages, each with a different function.
+This website was creating using Django and deplyed through Heroku. It functions as an interface to track the results of the pairs trading code (bmd0018/stocktrading_algo repo), and is updated at the end of every trading day. The site has several pages, each with a different function.
 
 The home page, or Dashboard, can be seen in the screenshot below. It summarizes the results up to the current day. The results are compared to the S&P 500 for assessment.
 
