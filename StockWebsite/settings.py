@@ -31,7 +31,7 @@ SECRET_KEY = os.environ.get('DJANGO_SECRET_KEY')
 DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 
 
-ALLOWED_HOSTS = ['pairsstocktrading.herokuapp.com','localhost']
+ALLOWED_HOSTS = ['.pairsstocktrading.com','pairsstocktrading.herokuapp.com','localhost']
 
 
 # Application definition
