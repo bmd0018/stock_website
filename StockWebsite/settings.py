@@ -33,6 +33,8 @@ DEBUG = os.environ.get('DJANGO_DEBUG', '') != 'False'
 
 ALLOWED_HOSTS = ['.pairsstocktrading.com','pairsstocktrading.herokuapp.com','localhost']
 
+SECURE_SSL_REDIRECT = True
+
 
 # Application definition
 
