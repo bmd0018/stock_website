@@ -22,1898 +22,1898 @@
     "data":[
         {
             "index":0,
-            "dates":"06-03-2019",
-            "prices":"2744.45"
-        },
-        {
-            "index":1,
-            "dates":"06-04-2019",
-            "prices":"2803.27"
-        },
-        {
-            "index":2,
-            "dates":"06-05-2019",
-            "prices":"2826.15"
-        },
-        {
-            "index":3,
-            "dates":"06-06-2019",
-            "prices":"2843.49"
-        },
-        {
-            "index":4,
-            "dates":"06-07-2019",
-            "prices":"2873.34"
-        },
-        {
-            "index":5,
-            "dates":"06-10-2019",
-            "prices":"2886.73"
-        },
-        {
-            "index":6,
-            "dates":"06-11-2019",
-            "prices":"2885.72"
-        },
-        {
-            "index":7,
-            "dates":"06-12-2019",
-            "prices":"2879.84"
-        },
-        {
-            "index":8,
-            "dates":"06-13-2019",
-            "prices":"2891.64"
-        },
-        {
-            "index":9,
-            "dates":"06-14-2019",
-            "prices":"2886.98"
-        },
-        {
-            "index":10,
-            "dates":"06-17-2019",
-            "prices":"2889.67"
-        },
-        {
-            "index":11,
-            "dates":"06-18-2019",
-            "prices":"2917.75"
-        },
-        {
-            "index":12,
-            "dates":"06-19-2019",
-            "prices":"2926.46"
-        },
-        {
-            "index":13,
-            "dates":"06-20-2019",
-            "prices":"2954.18"
-        },
-        {
-            "index":14,
-            "dates":"06-21-2019",
-            "prices":"2950.46"
-        },
-        {
-            "index":15,
-            "dates":"06-24-2019",
-            "prices":"2945.35"
-        },
-        {
-            "index":16,
-            "dates":"06-25-2019",
-            "prices":"2917.38"
-        },
-        {
-            "index":17,
-            "dates":"06-26-2019",
-            "prices":"2913.78"
-        },
-        {
-            "index":18,
-            "dates":"06-27-2019",
-            "prices":"2924.92"
-        },
-        {
-            "index":19,
-            "dates":"06-28-2019",
-            "prices":"2941.76"
-        },
-        {
-            "index":20,
-            "dates":"07-01-2019",
-            "prices":"2964.33"
-        },
-        {
-            "index":21,
-            "dates":"07-02-2019",
-            "prices":"2973.01"
-        },
-        {
-            "index":22,
-            "dates":"07-03-2019",
-            "prices":"2995.82"
-        },
-        {
-            "index":23,
-            "dates":"07-05-2019",
-            "prices":"2990.41"
-        },
-        {
-            "index":24,
-            "dates":"07-08-2019",
-            "prices":"2975.95"
-        },
-        {
-            "index":25,
-            "dates":"07-09-2019",
-            "prices":"2979.63"
-        },
-        {
-            "index":26,
-            "dates":"07-10-2019",
-            "prices":"2993.07"
-        },
-        {
-            "index":27,
-            "dates":"07-11-2019",
-            "prices":"2999.91"
-        },
-        {
-            "index":28,
-            "dates":"07-12-2019",
-            "prices":"3013.77"
-        },
-        {
-            "index":29,
-            "dates":"07-15-2019",
-            "prices":"3014.30"
-        },
-        {
-            "index":30,
-            "dates":"07-16-2019",
-            "prices":"3004.04"
-        },
-        {
-            "index":31,
-            "dates":"07-17-2019",
-            "prices":"2984.42"
-        },
-        {
-            "index":32,
-            "dates":"07-18-2019",
-            "prices":"2995.11"
-        },
-        {
-            "index":33,
-            "dates":"07-19-2019",
-            "prices":"2976.61"
-        },
-        {
-            "index":34,
             "dates":"07-22-2019",
             "prices":"2985.03"
         },
         {
-            "index":35,
+            "index":1,
             "dates":"07-23-2019",
             "prices":"3005.47"
         },
         {
-            "index":36,
+            "index":2,
             "dates":"07-24-2019",
             "prices":"3019.56"
         },
         {
-            "index":37,
+            "index":3,
             "dates":"07-25-2019",
             "prices":"3003.67"
         },
         {
-            "index":38,
+            "index":4,
             "dates":"07-26-2019",
             "prices":"3025.86"
         },
         {
-            "index":39,
+            "index":5,
             "dates":"07-29-2019",
             "prices":"3020.97"
         },
         {
-            "index":40,
+            "index":6,
             "dates":"07-30-2019",
             "prices":"3013.18"
         },
         {
-            "index":41,
+            "index":7,
             "dates":"07-31-2019",
             "prices":"2980.38"
         },
         {
-            "index":42,
+            "index":8,
             "dates":"08-01-2019",
             "prices":"2953.56"
         },
         {
-            "index":43,
+            "index":9,
             "dates":"08-02-2019",
             "prices":"2932.05"
         },
         {
-            "index":44,
+            "index":10,
             "dates":"08-05-2019",
             "prices":"2844.74"
         },
         {
-            "index":45,
+            "index":11,
             "dates":"08-06-2019",
             "prices":"2881.77"
         },
         {
-            "index":46,
+            "index":12,
             "dates":"08-07-2019",
             "prices":"2883.98"
         },
         {
-            "index":47,
+            "index":13,
             "dates":"08-08-2019",
             "prices":"2938.09"
         },
         {
-            "index":48,
+            "index":14,
             "dates":"08-09-2019",
             "prices":"2918.65"
         },
         {
-            "index":49,
+            "index":15,
             "dates":"08-12-2019",
             "prices":"2882.70"
         },
         {
-            "index":50,
+            "index":16,
             "dates":"08-13-2019",
             "prices":"2926.32"
         },
         {
-            "index":51,
+            "index":17,
             "dates":"08-14-2019",
             "prices":"2840.60"
         },
         {
-            "index":52,
+            "index":18,
             "dates":"08-15-2019",
             "prices":"2847.60"
         },
         {
-            "index":53,
+            "index":19,
             "dates":"08-16-2019",
             "prices":"2888.68"
         },
         {
-            "index":54,
+            "index":20,
             "dates":"08-19-2019",
             "prices":"2923.65"
         },
         {
-            "index":55,
+            "index":21,
             "dates":"08-20-2019",
             "prices":"2900.51"
         },
         {
-            "index":56,
+            "index":22,
             "dates":"08-21-2019",
             "prices":"2924.43"
         },
         {
-            "index":57,
+            "index":23,
             "dates":"08-22-2019",
             "prices":"2922.95"
         },
         {
-            "index":58,
+            "index":24,
             "dates":"08-23-2019",
             "prices":"2847.11"
         },
         {
-            "index":59,
+            "index":25,
             "dates":"08-26-2019",
             "prices":"2878.38"
         },
         {
-            "index":60,
+            "index":26,
             "dates":"08-27-2019",
             "prices":"2869.16"
         },
         {
-            "index":61,
+            "index":27,
             "dates":"08-28-2019",
             "prices":"2887.94"
         },
         {
-            "index":62,
+            "index":28,
             "dates":"08-29-2019",
             "prices":"2924.58"
         },
         {
-            "index":63,
+            "index":29,
             "dates":"08-30-2019",
             "prices":"2926.46"
         },
         {
-            "index":64,
+            "index":30,
             "dates":"09-03-2019",
             "prices":"2906.27"
         },
         {
-            "index":65,
+            "index":31,
             "dates":"09-04-2019",
             "prices":"2937.78"
         },
         {
-            "index":66,
+            "index":32,
             "dates":"09-05-2019",
             "prices":"2976.00"
         },
         {
-            "index":67,
+            "index":33,
             "dates":"09-06-2019",
             "prices":"2978.71"
         },
         {
-            "index":68,
+            "index":34,
             "dates":"09-09-2019",
             "prices":"2978.43"
         },
         {
-            "index":69,
+            "index":35,
             "dates":"09-10-2019",
             "prices":"2979.39"
         },
         {
-            "index":70,
+            "index":36,
             "dates":"09-11-2019",
             "prices":"3000.93"
         },
         {
-            "index":71,
+            "index":37,
             "dates":"09-12-2019",
             "prices":"3009.57"
         },
         {
-            "index":72,
+            "index":38,
             "dates":"09-13-2019",
             "prices":"3007.39"
         },
         {
-            "index":73,
+            "index":39,
             "dates":"09-16-2019",
             "prices":"2997.96"
         },
         {
-            "index":74,
+            "index":40,
             "dates":"09-17-2019",
             "prices":"3005.70"
         },
         {
-            "index":75,
+            "index":41,
             "dates":"09-18-2019",
             "prices":"3006.73"
         },
         {
-            "index":76,
+            "index":42,
             "dates":"09-19-2019",
             "prices":"3006.79"
         },
         {
-            "index":77,
+            "index":43,
             "dates":"09-20-2019",
             "prices":"2992.07"
         },
         {
-            "index":78,
+            "index":44,
             "dates":"09-23-2019",
             "prices":"2991.78"
         },
         {
-            "index":79,
+            "index":45,
             "dates":"09-24-2019",
             "prices":"2966.60"
         },
         {
-            "index":80,
+            "index":46,
             "dates":"09-25-2019",
             "prices":"2984.87"
         },
         {
-            "index":81,
+            "index":47,
             "dates":"09-26-2019",
             "prices":"2977.62"
         },
         {
-            "index":82,
+            "index":48,
             "dates":"09-27-2019",
             "prices":"2961.79"
         },
         {
-            "index":83,
+            "index":49,
             "dates":"09-30-2019",
             "prices":"2976.74"
         },
         {
-            "index":84,
+            "index":50,
             "dates":"10-01-2019",
             "prices":"2940.25"
         },
         {
-            "index":85,
+            "index":51,
             "dates":"10-02-2019",
             "prices":"2887.61"
         },
         {
-            "index":86,
+            "index":52,
             "dates":"10-03-2019",
             "prices":"2910.63"
         },
         {
-            "index":87,
+            "index":53,
             "dates":"10-04-2019",
             "prices":"2952.01"
         },
         {
-            "index":88,
+            "index":54,
             "dates":"10-07-2019",
             "prices":"2938.79"
         },
         {
-            "index":89,
+            "index":55,
             "dates":"10-08-2019",
             "prices":"2893.06"
         },
         {
-            "index":90,
+            "index":56,
             "dates":"10-09-2019",
             "prices":"2919.40"
         },
         {
-            "index":91,
+            "index":57,
             "dates":"10-10-2019",
             "prices":"2938.13"
         },
         {
-            "index":92,
+            "index":58,
             "dates":"10-11-2019",
             "prices":"2970.27"
         },
         {
-            "index":93,
+            "index":59,
             "dates":"10-14-2019",
             "prices":"2966.15"
         },
         {
-            "index":94,
+            "index":60,
             "dates":"10-15-2019",
             "prices":"2995.68"
         },
         {
-            "index":95,
+            "index":61,
             "dates":"10-16-2019",
             "prices":"2989.69"
         },
         {
-            "index":96,
+            "index":62,
             "dates":"10-17-2019",
             "prices":"2997.95"
         },
         {
-            "index":97,
+            "index":63,
             "dates":"10-18-2019",
             "prices":"2986.20"
         },
         {
-            "index":98,
+            "index":64,
             "dates":"10-21-2019",
             "prices":"3006.72"
         },
         {
-            "index":99,
+            "index":65,
             "dates":"10-22-2019",
             "prices":"2995.99"
         },
         {
-            "index":100,
+            "index":66,
             "dates":"10-23-2019",
             "prices":"3004.52"
         },
         {
-            "index":101,
+            "index":67,
             "dates":"10-24-2019",
             "prices":"3010.29"
         },
         {
-            "index":102,
+            "index":68,
             "dates":"10-25-2019",
             "prices":"3022.55"
         },
         {
-            "index":103,
+            "index":69,
             "dates":"10-28-2019",
             "prices":"3039.42"
         },
         {
-            "index":104,
+            "index":70,
             "dates":"10-29-2019",
             "prices":"3036.89"
         },
         {
-            "index":105,
+            "index":71,
             "dates":"10-30-2019",
             "prices":"3046.77"
         },
         {
-            "index":106,
+            "index":72,
             "dates":"10-31-2019",
             "prices":"3037.56"
         },
         {
-            "index":107,
+            "index":73,
             "dates":"11-01-2019",
             "prices":"3066.91"
         },
         {
-            "index":108,
+            "index":74,
             "dates":"11-04-2019",
             "prices":"3078.27"
         },
         {
-            "index":109,
+            "index":75,
             "dates":"11-05-2019",
             "prices":"3074.62"
         },
         {
-            "index":110,
+            "index":76,
             "dates":"11-06-2019",
             "prices":"3076.78"
         },
         {
-            "index":111,
+            "index":77,
             "dates":"11-07-2019",
             "prices":"3085.18"
         },
         {
-            "index":112,
+            "index":78,
             "dates":"11-08-2019",
             "prices":"3093.08"
         },
         {
-            "index":113,
+            "index":79,
             "dates":"11-11-2019",
             "prices":"3087.01"
         },
         {
-            "index":114,
+            "index":80,
             "dates":"11-12-2019",
             "prices":"3091.84"
         },
         {
-            "index":115,
+            "index":81,
             "dates":"11-13-2019",
             "prices":"3094.04"
         },
         {
-            "index":116,
+            "index":82,
             "dates":"11-14-2019",
             "prices":"3096.63"
         },
         {
-            "index":117,
+            "index":83,
             "dates":"11-15-2019",
             "prices":"3120.46"
         },
         {
-            "index":118,
+            "index":84,
             "dates":"11-18-2019",
             "prices":"3122.03"
         },
         {
-            "index":119,
+            "index":85,
             "dates":"11-19-2019",
             "prices":"3120.18"
         },
         {
-            "index":120,
+            "index":86,
             "dates":"11-20-2019",
             "prices":"3108.46"
         },
         {
-            "index":121,
+            "index":87,
             "dates":"11-21-2019",
             "prices":"3103.54"
         },
         {
-            "index":122,
+            "index":88,
             "dates":"11-22-2019",
             "prices":"3110.29"
         },
         {
-            "index":123,
+            "index":89,
             "dates":"11-25-2019",
             "prices":"3133.64"
         },
         {
-            "index":124,
+            "index":90,
             "dates":"11-26-2019",
             "prices":"3140.52"
         },
         {
-            "index":125,
+            "index":91,
             "dates":"11-27-2019",
             "prices":"3153.63"
         },
         {
-            "index":126,
+            "index":92,
             "dates":"11-29-2019",
             "prices":"3140.98"
         },
         {
-            "index":127,
+            "index":93,
             "dates":"12-02-2019",
             "prices":"3113.87"
         },
         {
-            "index":128,
+            "index":94,
             "dates":"12-03-2019",
             "prices":"3093.20"
         },
         {
-            "index":129,
+            "index":95,
             "dates":"12-04-2019",
             "prices":"3112.76"
         },
         {
-            "index":130,
+            "index":96,
             "dates":"12-05-2019",
             "prices":"3117.43"
         },
         {
-            "index":131,
+            "index":97,
             "dates":"12-06-2019",
             "prices":"3145.91"
         },
         {
-            "index":132,
+            "index":98,
             "dates":"12-09-2019",
             "prices":"3135.96"
         },
         {
-            "index":133,
+            "index":99,
             "dates":"12-10-2019",
             "prices":"3132.52"
         },
         {
-            "index":134,
+            "index":100,
             "dates":"12-11-2019",
             "prices":"3141.63"
         },
         {
-            "index":135,
+            "index":101,
             "dates":"12-12-2019",
             "prices":"3168.57"
         },
         {
-            "index":136,
+            "index":102,
             "dates":"12-13-2019",
             "prices":"3168.80"
         },
         {
-            "index":137,
+            "index":103,
             "dates":"12-16-2019",
             "prices":"3191.45"
         },
         {
-            "index":138,
+            "index":104,
             "dates":"12-17-2019",
             "prices":"3192.52"
         },
         {
-            "index":139,
+            "index":105,
             "dates":"12-18-2019",
             "prices":"3191.14"
         },
         {
-            "index":140,
+            "index":106,
             "dates":"12-19-2019",
             "prices":"3205.37"
         },
         {
-            "index":141,
+            "index":107,
             "dates":"12-20-2019",
             "prices":"3221.22"
         },
         {
-            "index":142,
+            "index":108,
             "dates":"12-23-2019",
             "prices":"3224.01"
         },
         {
-            "index":143,
+            "index":109,
             "dates":"12-24-2019",
             "prices":"3223.38"
         },
         {
-            "index":144,
+            "index":110,
             "dates":"12-26-2019",
             "prices":"3239.91"
         },
         {
-            "index":145,
+            "index":111,
             "dates":"12-27-2019",
             "prices":"3240.02"
         },
         {
-            "index":146,
+            "index":112,
             "dates":"12-30-2019",
             "prices":"3221.29"
         },
         {
-            "index":147,
+            "index":113,
             "dates":"12-31-2019",
             "prices":"3230.78"
         },
         {
-            "index":148,
+            "index":114,
             "dates":"01-02-2020",
             "prices":"3257.85"
         },
         {
-            "index":149,
+            "index":115,
             "dates":"01-03-2020",
             "prices":"3234.85"
         },
         {
-            "index":150,
+            "index":116,
             "dates":"01-06-2020",
             "prices":"3246.28"
         },
         {
-            "index":151,
+            "index":117,
             "dates":"01-07-2020",
             "prices":"3237.18"
         },
         {
-            "index":152,
+            "index":118,
             "dates":"01-08-2020",
             "prices":"3253.05"
         },
         {
-            "index":153,
+            "index":119,
             "dates":"01-09-2020",
             "prices":"3274.70"
         },
         {
-            "index":154,
+            "index":120,
             "dates":"01-10-2020",
             "prices":"3265.35"
         },
         {
-            "index":155,
+            "index":121,
             "dates":"01-13-2020",
             "prices":"3288.13"
         },
         {
-            "index":156,
+            "index":122,
             "dates":"01-14-2020",
             "prices":"3283.15"
         },
         {
-            "index":157,
+            "index":123,
             "dates":"01-15-2020",
             "prices":"3289.29"
         },
         {
-            "index":158,
+            "index":124,
             "dates":"01-16-2020",
             "prices":"3316.81"
         },
         {
-            "index":159,
+            "index":125,
             "dates":"01-17-2020",
             "prices":"3329.62"
         },
         {
-            "index":160,
+            "index":126,
             "dates":"01-21-2020",
             "prices":"3320.79"
         },
         {
-            "index":161,
+            "index":127,
             "dates":"01-22-2020",
             "prices":"3321.75"
         },
         {
-            "index":162,
+            "index":128,
             "dates":"01-23-2020",
             "prices":"3325.54"
         },
         {
-            "index":163,
+            "index":129,
             "dates":"01-24-2020",
             "prices":"3295.47"
         },
         {
-            "index":164,
+            "index":130,
             "dates":"01-27-2020",
             "prices":"3243.63"
         },
         {
-            "index":165,
+            "index":131,
             "dates":"01-28-2020",
             "prices":"3276.24"
         },
         {
-            "index":166,
+            "index":132,
             "dates":"01-29-2020",
             "prices":"3273.40"
         },
         {
-            "index":167,
+            "index":133,
             "dates":"01-30-2020",
             "prices":"3283.66"
         },
         {
-            "index":168,
+            "index":134,
             "dates":"01-31-2020",
             "prices":"3225.52"
         },
         {
-            "index":169,
+            "index":135,
             "dates":"02-03-2020",
             "prices":"3248.92"
         },
         {
-            "index":170,
+            "index":136,
             "dates":"02-04-2020",
             "prices":"3297.59"
         },
         {
-            "index":171,
+            "index":137,
             "dates":"02-05-2020",
             "prices":"3334.69"
         },
         {
-            "index":172,
+            "index":138,
             "dates":"02-06-2020",
             "prices":"3345.78"
         },
         {
-            "index":173,
+            "index":139,
             "dates":"02-07-2020",
             "prices":"3327.71"
         },
         {
-            "index":174,
+            "index":140,
             "dates":"02-10-2020",
             "prices":"3352.09"
         },
         {
-            "index":175,
+            "index":141,
             "dates":"02-11-2020",
             "prices":"3357.75"
         },
         {
-            "index":176,
+            "index":142,
             "dates":"02-12-2020",
             "prices":"3379.45"
         },
         {
-            "index":177,
+            "index":143,
             "dates":"02-13-2020",
             "prices":"3373.94"
         },
         {
-            "index":178,
+            "index":144,
             "dates":"02-14-2020",
             "prices":"3380.16"
         },
         {
-            "index":179,
+            "index":145,
             "dates":"02-18-2020",
             "prices":"3370.29"
         },
         {
-            "index":180,
+            "index":146,
             "dates":"02-19-2020",
             "prices":"3386.15"
         },
         {
-            "index":181,
+            "index":147,
             "dates":"02-20-2020",
             "prices":"3373.23"
         },
         {
-            "index":182,
+            "index":148,
             "dates":"02-21-2020",
             "prices":"3337.75"
         },
         {
-            "index":183,
+            "index":149,
             "dates":"02-24-2020",
             "prices":"3225.89"
         },
         {
-            "index":184,
+            "index":150,
             "dates":"02-25-2020",
             "prices":"3128.21"
         },
         {
-            "index":185,
+            "index":151,
             "dates":"02-26-2020",
             "prices":"3116.39"
         },
         {
-            "index":186,
+            "index":152,
             "dates":"02-27-2020",
             "prices":"2978.76"
         },
         {
-            "index":187,
+            "index":153,
             "dates":"02-28-2020",
             "prices":"2954.22"
         },
         {
-            "index":188,
+            "index":154,
             "dates":"03-02-2020",
             "prices":"3090.23"
         },
         {
-            "index":189,
+            "index":155,
             "dates":"03-03-2020",
             "prices":"3003.37"
         },
         {
-            "index":190,
+            "index":156,
             "dates":"03-04-2020",
             "prices":"3130.12"
         },
         {
-            "index":191,
+            "index":157,
             "dates":"03-05-2020",
             "prices":"3023.94"
         },
         {
-            "index":192,
+            "index":158,
             "dates":"03-06-2020",
             "prices":"2972.37"
         },
         {
-            "index":193,
+            "index":159,
             "dates":"03-09-2020",
             "prices":"2746.56"
         },
         {
-            "index":194,
+            "index":160,
             "dates":"03-10-2020",
             "prices":"2882.23"
         },
         {
-            "index":195,
+            "index":161,
             "dates":"03-11-2020",
             "prices":"2741.38"
         },
         {
-            "index":196,
+            "index":162,
             "dates":"03-12-2020",
             "prices":"2480.64"
         },
         {
-            "index":197,
+            "index":163,
             "dates":"03-13-2020",
             "prices":"2711.02"
         },
         {
-            "index":198,
+            "index":164,
             "dates":"03-16-2020",
             "prices":"2386.13"
         },
         {
-            "index":199,
+            "index":165,
             "dates":"03-17-2020",
             "prices":"2529.19"
         },
         {
-            "index":200,
+            "index":166,
             "dates":"03-18-2020",
             "prices":"2398.10"
         },
         {
-            "index":201,
+            "index":167,
             "dates":"03-19-2020",
             "prices":"2409.39"
         },
         {
-            "index":202,
+            "index":168,
             "dates":"03-20-2020",
             "prices":"2304.92"
         },
         {
-            "index":203,
+            "index":169,
             "dates":"03-23-2020",
             "prices":"2237.40"
         },
         {
-            "index":204,
+            "index":170,
             "dates":"03-24-2020",
             "prices":"2447.33"
         },
         {
-            "index":205,
+            "index":171,
             "dates":"03-25-2020",
             "prices":"2475.56"
         },
         {
-            "index":206,
+            "index":172,
             "dates":"03-26-2020",
             "prices":"2630.07"
         },
         {
-            "index":207,
+            "index":173,
             "dates":"03-27-2020",
             "prices":"2541.47"
         },
         {
-            "index":208,
+            "index":174,
             "dates":"03-30-2020",
             "prices":"2626.65"
         },
         {
-            "index":209,
+            "index":175,
             "dates":"03-31-2020",
             "prices":"2584.59"
         },
         {
-            "index":210,
+            "index":176,
             "dates":"04-01-2020",
             "prices":"2470.50"
         },
         {
-            "index":211,
+            "index":177,
             "dates":"04-02-2020",
             "prices":"2526.90"
         },
         {
-            "index":212,
+            "index":178,
             "dates":"04-03-2020",
             "prices":"2488.65"
         },
         {
-            "index":213,
+            "index":179,
             "dates":"04-06-2020",
             "prices":"2663.68"
         },
         {
-            "index":214,
+            "index":180,
             "dates":"04-07-2020",
             "prices":"2659.41"
         },
         {
-            "index":215,
+            "index":181,
             "dates":"04-08-2020",
             "prices":"2749.98"
         },
         {
-            "index":216,
+            "index":182,
             "dates":"04-09-2020",
             "prices":"2789.82"
         },
         {
-            "index":217,
+            "index":183,
             "dates":"04-13-2020",
             "prices":"2761.63"
         },
         {
-            "index":218,
+            "index":184,
             "dates":"04-14-2020",
             "prices":"2846.06"
         },
         {
-            "index":219,
+            "index":185,
             "dates":"04-15-2020",
             "prices":"2783.36"
         },
         {
-            "index":220,
+            "index":186,
             "dates":"04-16-2020",
             "prices":"2799.55"
         },
         {
-            "index":221,
+            "index":187,
             "dates":"04-17-2020",
             "prices":"2874.56"
         },
         {
-            "index":222,
+            "index":188,
             "dates":"04-20-2020",
             "prices":"2823.16"
         },
         {
-            "index":223,
+            "index":189,
             "dates":"04-21-2020",
             "prices":"2736.56"
         },
         {
-            "index":224,
+            "index":190,
             "dates":"04-22-2020",
             "prices":"2799.31"
         },
         {
-            "index":225,
+            "index":191,
             "dates":"04-23-2020",
             "prices":"2797.80"
         },
         {
-            "index":226,
+            "index":192,
             "dates":"04-24-2020",
             "prices":"2836.74"
         },
         {
-            "index":227,
+            "index":193,
             "dates":"04-27-2020",
             "prices":"2878.48"
         },
         {
-            "index":228,
+            "index":194,
             "dates":"04-28-2020",
             "prices":"2863.39"
         },
         {
-            "index":229,
+            "index":195,
             "dates":"04-29-2020",
             "prices":"2939.51"
         },
         {
-            "index":230,
+            "index":196,
             "dates":"04-30-2020",
             "prices":"2912.43"
         },
         {
-            "index":231,
+            "index":197,
             "dates":"05-01-2020",
             "prices":"2830.71"
         },
         {
-            "index":232,
+            "index":198,
             "dates":"05-04-2020",
             "prices":"2842.74"
         },
         {
-            "index":233,
+            "index":199,
             "dates":"05-05-2020",
             "prices":"2868.44"
         },
         {
-            "index":234,
+            "index":200,
             "dates":"05-06-2020",
             "prices":"2848.42"
         },
         {
-            "index":235,
+            "index":201,
             "dates":"05-07-2020",
             "prices":"2881.19"
         },
         {
-            "index":236,
+            "index":202,
             "dates":"05-08-2020",
             "prices":"2929.80"
         },
         {
-            "index":237,
+            "index":203,
             "dates":"05-11-2020",
             "prices":"2930.19"
         },
         {
-            "index":238,
+            "index":204,
             "dates":"05-12-2020",
             "prices":"2870.12"
         },
         {
-            "index":239,
+            "index":205,
             "dates":"05-13-2020",
             "prices":"2820.00"
         },
         {
-            "index":240,
+            "index":206,
             "dates":"05-14-2020",
             "prices":"2852.50"
         },
         {
-            "index":241,
+            "index":207,
             "dates":"05-15-2020",
             "prices":"2863.70"
         },
         {
-            "index":242,
+            "index":208,
             "dates":"05-18-2020",
             "prices":"2953.91"
         },
         {
-            "index":243,
+            "index":209,
             "dates":"05-19-2020",
             "prices":"2922.94"
         },
         {
-            "index":244,
+            "index":210,
             "dates":"05-20-2020",
             "prices":"2971.61"
         },
         {
-            "index":245,
+            "index":211,
             "dates":"05-21-2020",
             "prices":"2948.51"
         },
         {
-            "index":246,
+            "index":212,
             "dates":"05-22-2020",
             "prices":"2955.45"
         },
         {
-            "index":247,
+            "index":213,
             "dates":"05-26-2020",
             "prices":"2991.77"
         },
         {
-            "index":248,
+            "index":214,
             "dates":"05-27-2020",
             "prices":"3036.13"
         },
         {
-            "index":249,
+            "index":215,
             "dates":"05-28-2020",
             "prices":"3029.73"
         },
         {
-            "index":250,
+            "index":216,
             "dates":"05-29-2020",
             "prices":"3044.31"
         },
         {
-            "index":251,
+            "index":217,
             "dates":"06-01-2020",
             "prices":"3055.73"
         },
         {
-            "index":252,
+            "index":218,
             "dates":"06-02-2020",
             "prices":"3080.82"
         },
         {
-            "index":253,
+            "index":219,
             "dates":"06-03-2020",
             "prices":"3122.87"
         },
         {
-            "index":254,
+            "index":220,
             "dates":"06-04-2020",
             "prices":"3112.35"
         },
         {
-            "index":255,
+            "index":221,
             "dates":"06-05-2020",
             "prices":"3193.93"
         },
         {
-            "index":256,
+            "index":222,
             "dates":"06-08-2020",
             "prices":"3232.39"
         },
         {
-            "index":257,
+            "index":223,
             "dates":"06-09-2020",
             "prices":"3207.18"
         },
         {
-            "index":258,
+            "index":224,
             "dates":"06-10-2020",
             "prices":"3190.14"
         },
         {
-            "index":259,
+            "index":225,
             "dates":"06-11-2020",
             "prices":"3002.10"
         },
         {
-            "index":260,
+            "index":226,
             "dates":"06-12-2020",
             "prices":"3041.31"
         },
         {
-            "index":261,
+            "index":227,
             "dates":"06-15-2020",
             "prices":"3066.59"
         },
         {
-            "index":262,
+            "index":228,
             "dates":"06-16-2020",
             "prices":"3124.74"
         },
         {
-            "index":263,
+            "index":229,
             "dates":"06-17-2020",
             "prices":"3113.49"
         },
         {
-            "index":264,
+            "index":230,
             "dates":"06-18-2020",
             "prices":"3115.34"
         },
         {
-            "index":265,
+            "index":231,
             "dates":"06-19-2020",
             "prices":"3097.74"
         },
         {
-            "index":266,
+            "index":232,
             "dates":"06-22-2020",
             "prices":"3117.86"
         },
         {
-            "index":267,
+            "index":233,
             "dates":"06-23-2020",
             "prices":"3131.29"
         },
         {
-            "index":268,
+            "index":234,
             "dates":"06-24-2020",
             "prices":"3050.33"
         },
         {
-            "index":269,
+            "index":235,
             "dates":"06-25-2020",
             "prices":"3083.76"
         },
         {
-            "index":270,
+            "index":236,
             "dates":"06-26-2020",
             "prices":"3009.05"
         },
         {
-            "index":271,
+            "index":237,
             "dates":"06-29-2020",
             "prices":"3053.24"
         },
         {
-            "index":272,
+            "index":238,
             "dates":"06-30-2020",
             "prices":"3100.29"
         },
         {
-            "index":273,
+            "index":239,
             "dates":"07-01-2020",
             "prices":"3115.86"
         },
         {
-            "index":274,
+            "index":240,
             "dates":"07-02-2020",
             "prices":"3130.01"
         },
         {
-            "index":275,
+            "index":241,
             "dates":"07-06-2020",
             "prices":"3179.72"
         },
         {
-            "index":276,
+            "index":242,
             "dates":"07-07-2020",
             "prices":"3145.32"
         },
         {
-            "index":277,
+            "index":243,
             "dates":"07-08-2020",
             "prices":"3169.94"
         },
         {
-            "index":278,
+            "index":244,
             "dates":"07-09-2020",
             "prices":"3152.05"
         },
         {
-            "index":279,
+            "index":245,
             "dates":"07-10-2020",
             "prices":"3185.04"
         },
         {
-            "index":280,
+            "index":246,
             "dates":"07-13-2020",
             "prices":"3155.22"
         },
         {
-            "index":281,
+            "index":247,
             "dates":"07-14-2020",
             "prices":"3197.52"
         },
         {
-            "index":282,
+            "index":248,
             "dates":"07-15-2020",
             "prices":"3226.56"
         },
         {
-            "index":283,
+            "index":249,
             "dates":"07-16-2020",
             "prices":"3215.57"
         },
         {
-            "index":284,
+            "index":250,
             "dates":"07-17-2020",
             "prices":"3224.73"
         },
         {
-            "index":285,
+            "index":251,
             "dates":"07-20-2020",
             "prices":"3251.84"
         },
         {
-            "index":286,
+            "index":252,
             "dates":"07-21-2020",
             "prices":"3257.30"
         },
         {
-            "index":287,
+            "index":253,
             "dates":"07-22-2020",
             "prices":"3276.02"
         },
         {
-            "index":288,
+            "index":254,
             "dates":"07-23-2020",
             "prices":"3235.66"
         },
         {
-            "index":289,
+            "index":255,
             "dates":"07-24-2020",
             "prices":"3215.63"
         },
         {
-            "index":290,
+            "index":256,
             "dates":"07-27-2020",
             "prices":"3239.41"
         },
         {
-            "index":291,
+            "index":257,
             "dates":"07-28-2020",
             "prices":"3218.44"
         },
         {
-            "index":292,
+            "index":258,
             "dates":"07-29-2020",
             "prices":"3258.44"
         },
         {
-            "index":293,
+            "index":259,
             "dates":"07-30-2020",
             "prices":"3246.22"
         },
         {
-            "index":294,
+            "index":260,
             "dates":"07-31-2020",
             "prices":"3271.12"
         },
         {
-            "index":295,
+            "index":261,
             "dates":"08-03-2020",
             "prices":"3294.61"
         },
         {
-            "index":296,
+            "index":262,
             "dates":"08-04-2020",
             "prices":"3306.51"
         },
         {
-            "index":297,
+            "index":263,
             "dates":"08-05-2020",
             "prices":"3327.77"
         },
         {
-            "index":298,
+            "index":264,
             "dates":"08-06-2020",
             "prices":"3349.16"
         },
         {
-            "index":299,
+            "index":265,
             "dates":"08-07-2020",
             "prices":"3351.28"
         },
         {
-            "index":300,
+            "index":266,
             "dates":"08-10-2020",
             "prices":"3360.47"
         },
         {
-            "index":301,
+            "index":267,
             "dates":"08-11-2020",
             "prices":"3333.69"
         },
         {
-            "index":302,
+            "index":268,
             "dates":"08-12-2020",
             "prices":"3380.35"
         },
         {
-            "index":303,
+            "index":269,
             "dates":"08-13-2020",
             "prices":"3373.43"
         },
         {
-            "index":304,
+            "index":270,
             "dates":"08-14-2020",
             "prices":"3372.85"
         },
         {
-            "index":305,
+            "index":271,
             "dates":"08-17-2020",
             "prices":"3381.99"
         },
         {
-            "index":306,
+            "index":272,
             "dates":"08-18-2020",
             "prices":"3389.78"
         },
         {
-            "index":307,
+            "index":273,
             "dates":"08-19-2020",
             "prices":"3374.85"
         },
         {
-            "index":308,
+            "index":274,
             "dates":"08-20-2020",
             "prices":"3385.51"
         },
         {
-            "index":309,
+            "index":275,
             "dates":"08-21-2020",
             "prices":"3397.16"
         },
         {
-            "index":310,
+            "index":276,
             "dates":"08-24-2020",
             "prices":"3431.28"
         },
         {
-            "index":311,
+            "index":277,
             "dates":"08-25-2020",
             "prices":"3443.62"
         },
         {
-            "index":312,
+            "index":278,
             "dates":"08-26-2020",
             "prices":"3478.73"
         },
         {
-            "index":313,
+            "index":279,
             "dates":"08-27-2020",
             "prices":"3484.55"
         },
         {
-            "index":314,
+            "index":280,
             "dates":"08-28-2020",
             "prices":"3508.01"
         },
         {
-            "index":315,
+            "index":281,
             "dates":"08-31-2020",
             "prices":"3500.31"
         },
         {
-            "index":316,
+            "index":282,
             "dates":"09-01-2020",
             "prices":"3526.65"
         },
         {
-            "index":317,
+            "index":283,
             "dates":"09-02-2020",
             "prices":"3580.84"
         },
         {
-            "index":318,
+            "index":284,
             "dates":"09-03-2020",
             "prices":"3455.06"
         },
         {
-            "index":319,
+            "index":285,
             "dates":"09-04-2020",
             "prices":"3426.96"
         },
         {
-            "index":320,
+            "index":286,
             "dates":"09-08-2020",
             "prices":"3331.84"
         },
         {
-            "index":321,
+            "index":287,
             "dates":"09-09-2020",
             "prices":"3398.96"
         },
         {
-            "index":322,
+            "index":288,
             "dates":"09-10-2020",
             "prices":"3339.19"
         },
         {
-            "index":323,
+            "index":289,
             "dates":"09-11-2020",
             "prices":"3340.97"
         },
         {
-            "index":324,
+            "index":290,
             "dates":"09-14-2020",
             "prices":"3383.54"
         },
         {
-            "index":325,
+            "index":291,
             "dates":"09-15-2020",
             "prices":"3401.20"
         },
         {
-            "index":326,
+            "index":292,
             "dates":"09-16-2020",
             "prices":"3385.49"
         },
         {
-            "index":327,
+            "index":293,
             "dates":"09-17-2020",
             "prices":"3357.01"
         },
         {
-            "index":328,
+            "index":294,
             "dates":"09-18-2020",
             "prices":"3319.47"
         },
         {
-            "index":329,
+            "index":295,
             "dates":"09-21-2020",
             "prices":"3281.06"
         },
         {
-            "index":330,
+            "index":296,
             "dates":"09-22-2020",
             "prices":"3315.57"
         },
         {
-            "index":331,
+            "index":297,
             "dates":"09-23-2020",
             "prices":"3236.92"
         },
         {
-            "index":332,
+            "index":298,
             "dates":"09-24-2020",
             "prices":"3246.59"
         },
         {
-            "index":333,
+            "index":299,
             "dates":"09-25-2020",
             "prices":"3298.46"
         },
         {
-            "index":334,
+            "index":300,
             "dates":"09-28-2020",
             "prices":"3351.60"
         },
         {
-            "index":335,
+            "index":301,
             "dates":"09-29-2020",
             "prices":"3335.47"
         },
         {
-            "index":336,
+            "index":302,
             "dates":"09-30-2020",
             "prices":"3363.00"
         },
         {
-            "index":337,
+            "index":303,
             "dates":"10-01-2020",
             "prices":"3380.80"
         },
         {
-            "index":338,
+            "index":304,
             "dates":"10-02-2020",
             "prices":"3348.42"
         },
         {
-            "index":339,
+            "index":305,
             "dates":"10-05-2020",
             "prices":"3408.60"
         },
         {
-            "index":340,
+            "index":306,
             "dates":"10-06-2020",
             "prices":"3360.97"
         },
         {
-            "index":341,
+            "index":307,
             "dates":"10-07-2020",
             "prices":"3419.44"
         },
         {
-            "index":342,
+            "index":308,
             "dates":"10-08-2020",
             "prices":"3446.83"
         },
         {
-            "index":343,
+            "index":309,
             "dates":"10-09-2020",
             "prices":"3477.14"
         },
         {
-            "index":344,
+            "index":310,
             "dates":"10-12-2020",
             "prices":"3534.22"
         },
         {
-            "index":345,
+            "index":311,
             "dates":"10-13-2020",
             "prices":"3511.93"
         },
         {
-            "index":346,
+            "index":312,
             "dates":"10-14-2020",
             "prices":"3488.67"
         },
         {
-            "index":347,
+            "index":313,
             "dates":"10-15-2020",
             "prices":"3483.34"
         },
         {
-            "index":348,
+            "index":314,
             "dates":"10-16-2020",
             "prices":"3483.81"
         },
         {
-            "index":349,
+            "index":315,
             "dates":"10-19-2020",
             "prices":"3426.92"
         },
         {
-            "index":350,
+            "index":316,
             "dates":"10-20-2020",
             "prices":"3443.12"
         },
         {
-            "index":351,
+            "index":317,
             "dates":"10-21-2020",
             "prices":"3435.56"
         },
         {
-            "index":352,
+            "index":318,
             "dates":"10-22-2020",
             "prices":"3453.49"
         },
         {
-            "index":353,
+            "index":319,
             "dates":"10-23-2020",
             "prices":"3465.39"
         },
         {
-            "index":354,
+            "index":320,
             "dates":"10-26-2020",
             "prices":"3400.97"
         },
         {
-            "index":355,
+            "index":321,
             "dates":"10-27-2020",
             "prices":"3390.68"
         },
         {
-            "index":356,
+            "index":322,
             "dates":"10-28-2020",
             "prices":"3271.03"
         },
         {
-            "index":357,
+            "index":323,
             "dates":"10-29-2020",
             "prices":"3310.11"
         },
         {
-            "index":358,
+            "index":324,
             "dates":"10-30-2020",
             "prices":"3269.96"
         },
         {
-            "index":359,
+            "index":325,
             "dates":"11-02-2020",
             "prices":"3310.24"
         },
         {
-            "index":360,
+            "index":326,
             "dates":"11-03-2020",
             "prices":"3369.16"
         },
         {
-            "index":361,
+            "index":327,
             "dates":"11-04-2020",
             "prices":"3443.44"
         },
         {
-            "index":362,
+            "index":328,
             "dates":"11-05-2020",
             "prices":"3510.45"
         },
         {
-            "index":363,
+            "index":329,
             "dates":"11-06-2020",
             "prices":"3509.44"
         },
         {
-            "index":364,
+            "index":330,
             "dates":"11-09-2020",
             "prices":"3550.50"
         },
         {
-            "index":365,
+            "index":331,
             "dates":"11-10-2020",
             "prices":"3545.53"
         },
         {
-            "index":366,
+            "index":332,
             "dates":"11-11-2020",
             "prices":"3572.66"
         },
         {
-            "index":367,
+            "index":333,
             "dates":"11-12-2020",
             "prices":"3537.01"
         },
         {
-            "index":368,
+            "index":334,
             "dates":"11-13-2020",
             "prices":"3585.15"
         },
         {
-            "index":369,
+            "index":335,
             "dates":"11-16-2020",
             "prices":"3626.91"
         },
         {
-            "index":370,
+            "index":336,
             "dates":"11-17-2020",
             "prices":"3609.53"
         },
         {
-            "index":371,
+            "index":337,
             "dates":"11-18-2020",
             "prices":"3567.79"
         },
         {
-            "index":372,
+            "index":338,
             "dates":"11-19-2020",
             "prices":"3581.87"
         },
         {
-            "index":373,
+            "index":339,
             "dates":"11-20-2020",
             "prices":"3557.54"
         },
         {
-            "index":374,
+            "index":340,
             "dates":"11-23-2020",
             "prices":"3577.59"
         },
         {
-            "index":375,
+            "index":341,
             "dates":"11-24-2020",
             "prices":"3635.41"
         },
         {
-            "index":376,
+            "index":342,
             "dates":"11-25-2020",
             "prices":"3629.65"
         },
         {
-            "index":377,
+            "index":343,
             "dates":"11-27-2020",
             "prices":"3638.35"
         },
         {
-            "index":378,
+            "index":344,
             "dates":"11-30-2020",
             "prices":"3621.63"
+        },
+        {
+            "index":345,
+            "dates":"12-01-2020",
+            "prices":"3662.45"
+        },
+        {
+            "index":346,
+            "dates":"12-02-2020",
+            "prices":"3669.01"
+        },
+        {
+            "index":347,
+            "dates":"12-03-2020",
+            "prices":"3666.72"
+        },
+        {
+            "index":348,
+            "dates":"12-04-2020",
+            "prices":"3699.12"
+        },
+        {
+            "index":349,
+            "dates":"12-07-2020",
+            "prices":"3691.96"
+        },
+        {
+            "index":350,
+            "dates":"12-08-2020",
+            "prices":"3702.25"
+        },
+        {
+            "index":351,
+            "dates":"12-09-2020",
+            "prices":"3672.82"
+        },
+        {
+            "index":352,
+            "dates":"12-10-2020",
+            "prices":"3668.10"
+        },
+        {
+            "index":353,
+            "dates":"12-11-2020",
+            "prices":"3663.46"
+        },
+        {
+            "index":354,
+            "dates":"12-14-2020",
+            "prices":"3647.49"
+        },
+        {
+            "index":355,
+            "dates":"12-15-2020",
+            "prices":"3694.62"
+        },
+        {
+            "index":356,
+            "dates":"12-16-2020",
+            "prices":"3701.17"
+        },
+        {
+            "index":357,
+            "dates":"12-17-2020",
+            "prices":"3722.48"
+        },
+        {
+            "index":358,
+            "dates":"12-18-2020",
+            "prices":"3709.41"
+        },
+        {
+            "index":359,
+            "dates":"12-21-2020",
+            "prices":"3694.92"
+        },
+        {
+            "index":360,
+            "dates":"12-22-2020",
+            "prices":"3687.26"
+        },
+        {
+            "index":361,
+            "dates":"12-23-2020",
+            "prices":"3690.01"
+        },
+        {
+            "index":362,
+            "dates":"12-24-2020",
+            "prices":"3703.06"
+        },
+        {
+            "index":363,
+            "dates":"12-28-2020",
+            "prices":"3735.36"
+        },
+        {
+            "index":364,
+            "dates":"12-29-2020",
+            "prices":"3727.04"
+        },
+        {
+            "index":365,
+            "dates":"12-30-2020",
+            "prices":"3732.04"
+        },
+        {
+            "index":366,
+            "dates":"12-31-2020",
+            "prices":"3756.07"
+        },
+        {
+            "index":367,
+            "dates":"01-04-2021",
+            "prices":"3700.65"
+        },
+        {
+            "index":368,
+            "dates":"01-05-2021",
+            "prices":"3726.86"
+        },
+        {
+            "index":369,
+            "dates":"01-06-2021",
+            "prices":"3748.14"
+        },
+        {
+            "index":370,
+            "dates":"01-07-2021",
+            "prices":"3803.79"
+        },
+        {
+            "index":371,
+            "dates":"01-08-2021",
+            "prices":"3824.68"
+        },
+        {
+            "index":372,
+            "dates":"01-11-2021",
+            "prices":"3799.61"
+        },
+        {
+            "index":373,
+            "dates":"01-12-2021",
+            "prices":"3801.19"
+        },
+        {
+            "index":374,
+            "dates":"01-13-2021",
+            "prices":"3809.84"
+        },
+        {
+            "index":375,
+            "dates":"01-14-2021",
+            "prices":"3795.54"
+        },
+        {
+            "index":376,
+            "dates":"01-15-2021",
+            "prices":"3768.25"
+        },
+        {
+            "index":377,
+            "dates":"01-19-2021",
+            "prices":"3798.91"
+        },
+        {
+            "index":378,
+            "dates":"01-20-2021",
+            "prices":"3851.85"
         }
     ]
 }
